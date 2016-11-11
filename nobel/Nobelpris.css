@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+#storbox{
+	height:100%;
+	width:100%;
+	position:absolute; 
+}
+body{
+	background-image:url(nobelmedalj.png);
+	background-size:5.5%;
+	background-attachment:fixed;
+}
+#blahal{
+	float:right;
+}
+h1{
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	font-size:xx-large;
+	
+}
+p{
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:17px;
+}
+header{
+	background-color:#8FAA3B;
+	width:80%;
+	height:25%;
+	overflow:hidden;
+	background-image:url(nobelmedalj.png);
+	background-repeat:no-repeat;
+	background-size:12%;
+	/* låst position */
+	background-attachment: fixed;
+    background-position: 20% 2%;
+	padding:10px;
+	box-sizing:border-box; 
+	margin-left:10%;
+}
+nav{
+	background-color:#B1CA65;
+	width:80%;
+	height:20%;
+	overflow:hidden;
+	box-sizing:border-box;
+	margin-left:10%;
+}
+article{
+	background-color:#FFF;
+	width:80%;
+	height:90%;
+	overflow:hidden;
+	padding:10px;
+	box-sizing:border-box;
+	margin-left:10%;
+}
+footer{
+	background-color:#8FAA3B;
+	width:80%;
+	height:10%;
+	margin-left:10%;
+}
+ul{
+	list-style:none;
+	background-color:#6c0;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+li{
+	margin-top:2.5%;
+	height:100%;
+	width:25%;
+	float:left;
+	font-family:"Courier New", Courier, monospace;
+}
+a:link{
+	text-decoration:none;
+	color:#000;
+}
+a:visited{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:none;
+	color:#000;
+}
+a:active{
+	text-decoration:none;
+	color:#000;
+}
+img{
+	border-radius:50%;
+	border:2px solid #000;
+}
