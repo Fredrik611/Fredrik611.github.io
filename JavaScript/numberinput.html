@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+<input type="text" id="mynumber" >
+<button onClick="myFunction()">click me </button>
+<p id="hej">write a number.</p>
+<script>
+function myFunction(){
+	var x = document.getElementById("mynumber").value;
+	if(isNaN(x))
+	{
+		alert("Not a number")
+		
+	}
+	else{
+	document.getElementById("hej").innerHTML = x;
+	}
+}
+</script>
+</body>
+</html>
