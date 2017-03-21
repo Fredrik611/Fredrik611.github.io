@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+	<p>
+		<img src="indexsida.jpg" alt="Indexsida">
+        <img src="snurresida.jpg" alt="Snurresida">
+	</p>
+</body>
+</html>
