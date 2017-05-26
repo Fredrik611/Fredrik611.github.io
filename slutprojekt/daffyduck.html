@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!-- -->
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+  <meta charset="utf-8">
+  <title>Daffy Duck</title>
+  <link rel="stylesheet" href="Looney.css">
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="java.js"></script>
+</head>
+
+<body>
+
+  <div id="storbox">
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="TheCast.html">The Cast</a>
+        <a href="BuggsBunny.html">Bugs Bunny</a>
+        <a href="Taz.html">Taz</a>
+        <a href="Porky.html">Porky Pig</a>
+      </div>
+
+      <div id="menuBox">
+        <span onclick="openNav()" id="menuButton">&#9776;</span>
+      </div>
+      <div id="logo">
+        <img id="bild" src="looneytoons.png" alt="logo">
+      </div>
+    </header>
+
+    <article>
+      <div id="storLoggoDaffy"></div>
+      <h1>Daffy Duck</h1>
+      <p>Daffy Duck is an animated cartoon character produced by Warner Bros. Styled as an anthropomorphic black duck, the character has appeared in cartoon series such as Looney Tunes and Merrie Melodies, where he usually has been depicted as the best friend
+        and occasional arch-rival of Bugs Bunny. Daffy was one of the first of the new "screwball" characters that emerged in the late 1930s to replace traditional everyman characters who were more popular earlier in the decade, such as Mickey Mouse and
+        Popeye. Daffy starred in 130 shorts in the golden age, making him the third-most frequent character in the Looney Tunes/Merrie Melodies cartoons, behind Bugs Bunny's 180 appearances and Porky Pig's 162 appearances. <br>Daffy was number 14 on TV
+        Guide's list of top 50 best cartoon characters and was featured on one of the issue's four covers as Duck Dodgers with Porky Pig and the Powerpuff Girls (all of which are Time Warner-owned characters).<br> Daffy first appeared in Porky's Duck
+        Hunt, released on April 17, 1937. The cartoon was directed by Tex Avery and animated by Bob Clampett. Porky's Duck Hunt is a standard hunter/prey pairing for which Leon Schlesinger's studio was famous, but Daffy (barely more than an unnamed bit
+        player in this short) was something new to moviegoers: an assertive, completely unrestrained, combative protagonist. Clampett later recalled:"At that time, audiences weren't accustomed to seeing a cartoon character do these things. And so, when
+        it hit the theaters it was an explosion. People would leave the theaters talking about this daffy duck."</p>
+    </article>
+
+    <div id="creator">
+      <img id="creatorPic" src="TexAvery.jpg" alt="Tex Avery">
+      <h2> Tex Avery</h2>
+      <p> Frederick Bean "Tex" Avery (February 26, 1908 – August 26, 1980) was an American animator, cartoonist, and director, known for producing animated cartoons during the golden age of American animation. His most significant work was for the Warner
+        Bros. and Metro-Goldwyn-Mayer studios, crucial in the evolution of Bugs Bunny, creating Daffy Duck, Droopy, and Screwy Squirrel, and developing Porky Pig and Chilly Willy (this last one for the Walter Lantz Studio) into the personas for which
+        they are remembered. <br> Avery's style of directing encouraged animators to stretch the boundaries of the medium to do things in a cartoon that could not be done in the world of live-action film. An often-quoted line about Avery's cartoons was,
+        "In a cartoon you can do anything." He also performed a great deal of voice work in his cartoons, usually throwaway bits (e.g. the Santa Claus seen briefly in Who Killed Who?), but Avery also voiced Junior from George and Junior and occasionally
+        filled in for Bill Thompson as Droopy.
+      </p>
+    </div>
+
+    <div id="video">
+      <button id="button1" onclick="clickme()">night mode</button>
+      <button id="button2" onclick="Closevideo()">&times;</button>
+      <div id="VideoWindow"><iframe src="https://www.youtube.com/embed/2n7UgwWGUeQ" style="border:none" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</body>
+
+</html>
