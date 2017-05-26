@@ -149,6 +149,7 @@ article {
   color: #818181;
   display: block;
   transition: 0.3s;
+  font-family: "Comic Sans MS", cursive;
 }
 
 .sidenav a:hover, .offcanvas a:focus {
