@@ -258,13 +258,6 @@ p {
   float: left;
 }
 
-#slideshowbox {
-  margin-top: 50%;
-  height: 200px;
-  width: 388px;
-  margin: 100px auto auto auto;
-}
-
 .slidebox {
   float: left;
 }
@@ -287,7 +280,7 @@ p {
 }
 
 #sources {
-  padding: 10px;
+  padding: 0;
   margin-top: 100px;
   width: 100%;
   border-top: 5px #000;
@@ -305,7 +298,7 @@ p {
 }
 
 #VideoWindow {
-  margin: 200px auto 0 auto;
+  margin: 150px auto 0 auto;
   height: 600px;
   width: 1000px;
 }
@@ -1072,6 +1065,13 @@ li {
   }
 }
 
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  #VideoWindow {
+    margin: 200px auto 0 auto;
+    height: 400px;
+    width: 800px;
+  }
+}
 @media screen and (max-width: 900px) and (min-width: 700px) {
   #storbox {
     background-color: #FFF;
